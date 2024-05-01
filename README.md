@@ -5,3 +5,11 @@ A collection of denoising technique experimenting to denoise OCT B-Scans. Includ
 
 ### 1. Wavelet Transform & Wavelet thresholding
 [Devnith] Currently working on wavelet transform based denoising methods using MATLAB and Python.
+
+### 2. BM3D
+[Nadun & Ravindu] Planning to estimate the noise for improve the results.
+
+- Code Inspiration : https://github.com/ChihaoZhang/BM3D
+
+#### BM3D Comparison
+
