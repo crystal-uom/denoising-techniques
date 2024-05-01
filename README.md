@@ -13,3 +13,4 @@ A collection of denoising technique experimenting to denoise OCT B-Scans. Includ
 
 #### BM3D Comparison
 
+![BM3D](bm3d comparison.png)
