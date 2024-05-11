@@ -42,3 +42,13 @@ Following series of SVD reconstruction shows suppression of noise with truncated
 <p align="center">
 <img src="gaussian filtering/gaussian_filter_comparison.png" alt="Initial Prototype" width="600"/>
 </p>
+
+### 5. Anisotropic Diffusion
+
+[Sasika] Anisotropic Diffusion results for both 2 formulae
+
+- Notebook : [Google Colab](https://colab.research.google.com/drive/1igHUi8mmSP5KIeDVMj8qd3Wg7tTggsV5?usp=sharing)
+
+<p align="center">
+<img src="anisotropic_diffusion/Anisotropic diffusion results.png" alt="Initial Prototype" />
+</p>
