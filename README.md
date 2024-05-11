@@ -14,10 +14,6 @@ Latest approach: [Nadun] Used the bm3d python library based on original bm3d pap
 
 #### BM3D Comparison
 
-<p align="center">
-<img src="bm3d/bm3d_results.png" alt="Initial Prototype" width="700"/>
-</p>
-
 
 ### 3. SVD Thresholding
 [Devnith] Tested SVD truncation and got positive results. Working on finding the optimal threhold or using soft thresholding. Literature is mentioned in the pdfs.
@@ -25,14 +21,9 @@ Latest approach: [Nadun] Used the bm3d python library based on original bm3d pap
 #### SVD-HT Comparison
 
 Following comparison shows the noise level improvement
-<p align="center">
-<img src="svd/svd.jpg" alt="SVD_comp" width="400"/>
-</p>
+
 
 Following series of SVD reconstruction shows suppression of noise with truncated sigma values. 
-<p align="center">
-<img src="svd/svd_process.jpg" alt="SVD_comp" width="400"/>
-</p>
 
 ### 4. Gaussian Filtering
 [Nadun] Applied simple gaussian filters for different gaussian noise sigma values.
