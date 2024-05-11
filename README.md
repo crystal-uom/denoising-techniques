@@ -34,10 +34,10 @@ Following series of SVD reconstruction shows suppression of noise with truncated
 <img src="svd/svd_process.jpg" alt="SVD_comp" width="400"/>
 </p>
 
-### 2. BM3D
+### 4. Gaussian Filtering
 [Nadun] simple gaussian filtering to filter out the gaussian noise distributions
 
-#### BM3D Comparison
+#### Gaussian filtering comparison
 
 <p align="center">
 <img src="gaussian filtering/gaussian_filter_comparison.png" alt="Initial Prototype" width="600"/>
