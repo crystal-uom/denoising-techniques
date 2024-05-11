@@ -23,5 +23,5 @@ A collection of denoising technique experimenting to denoise OCT B-Scans. Includ
 #### Gaussian filter result Comparison
 
 <p align="center">
-<img src="gaussian/gaussian.png" alt="Initial Prototype" width="750"/>
+<img src="gaussian filters/gaussian_filter_comparison.png" alt="Initial Prototype" width="750"/>
 </p>
