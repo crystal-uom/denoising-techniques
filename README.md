@@ -16,3 +16,19 @@ A collection of denoising technique experimenting to denoise OCT B-Scans. Includ
 <p align="center">
 <img src="bm3d/bm3d comparison.png" alt="Initial Prototype" width="400"/>
 </p>
+
+
+### 3. SVD Thresholding
+[Devnith] Tested SVD truncation and got positive results. Working on finding the optimal threhold or using soft thresholding. Literature is mentioned in the pdfs.
+
+#### SVD-HT Comparison
+
+Following comparison shows the noise level improvement
+<p align="center">
+<img src="svd/svd.jpg" alt="SVD_comp" width="400"/>
+</p>
+
+Following series of SVD reconstruction shows suppression of noise with truncated sigma values. 
+<p align="center">
+<img src="svd/svd_process.jpg" alt="SVD_comp" width="400"/>
+</p>
