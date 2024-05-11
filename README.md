@@ -15,7 +15,7 @@ Latest approach: [Nadun] Used the bm3d python library based on original bm3d pap
 #### BM3D Comparison
 
 <p align="center">
-<img src="bm3d/bm3d_results.png" alt="Initial Prototype" width="700"/>
+<img src="bm3d/bm3d_results.png" alt="Initial Prototype" width="600"/>
 </p>
 
 
@@ -32,4 +32,13 @@ Following comparison shows the noise level improvement
 Following series of SVD reconstruction shows suppression of noise with truncated sigma values. 
 <p align="center">
 <img src="svd/svd_process.jpg" alt="SVD_comp" width="400"/>
+</p>
+
+### 2. BM3D
+[Nadun] simple gaussian filtering to filter out the gaussian noise distributions
+
+#### BM3D Comparison
+
+<p align="center">
+<img src="gaussian filtering/gaussian_filter_comparison.png" alt="Initial Prototype" width="600"/>
 </p>
