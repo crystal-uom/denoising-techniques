@@ -52,3 +52,15 @@ Following series of SVD reconstruction shows suppression of noise with truncated
 <p align="center">
 <img src="anisotropic_diffusion/Anisotropic diffusion results.png" alt="Initial Prototype" />
 </p>
+
+### 6. Total Variation
+
+[Nadun] Total bariation method
+
+<p align="center">
+<img src="total_variation/total_variation_results.PNG" alt="tv" width="500"/>
+</p>
+
+
+
+
