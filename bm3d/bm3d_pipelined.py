@@ -8,19 +8,25 @@ import os
 import glob
 from collections import defaultdict
 
-icip_data = "D:/VIP Cup/Dataset/ICIP training data/"
+### Enter your dataset paths here ###
+
+# Absolute paths for the input dataset
+icip_data = "D:/VIP Cup/datasets/ICIP training data/"
+
+# Absolute path for the output denoised dataset
 denoised_data = "D:/VIP Cup/Output dataset/denoised_tiff_data/"
-in_path = "D:/VIP Cup/Dataset/ICIP training data/2/RawDataQA-2 (24)/RawDataQA-2-24 (108).tiff"
-out_path = "D:/VIP Cup/Results/bm3d library/2-bm3d_sigma_"
+
+# Absolute path for the csv file containing the tiff directories
 csv_file = os.path.join(denoised_data, "tiff_directories.csv")
 
+# constants
 tiff_directories = defaultdict(list)
 denoised_tiff_count = 0
 original_tiff_count = 0
 SIGMA = 0.083
 
 def bm3d_denoise(noisy_image, denoised_image, npsd_sigma = SIGMA):
-
+    """Function to denoise the input image using BM3D denoising technique"""
     noisy_oct = img_as_float(io.imread(noisy_image, as_gray=True))
     sigma = npsd_sigma
 
@@ -63,7 +69,8 @@ if __name__ == "__main__":
 
 
         if is_tiff(file):
-
+            
+            #for testing
             #print(file)
 
             # output directory of the corresponding nifti file
