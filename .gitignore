@@ -5,3 +5,5 @@
 /test.py
 /test.ipynb
 /EDSR_x2.pb
+/test_include_denoised_figs_for_report.ipynb
+/denoising_evaluation_for_test_data.ipynb
